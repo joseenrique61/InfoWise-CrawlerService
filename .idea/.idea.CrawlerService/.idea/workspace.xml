@@ -11,10 +11,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8efde230-b92c-454a-90d7-3c734adf6f4a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CrawlerService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CrawlerService/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/CrawlerService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerService/CrawlerService.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerService/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawlerService/CrawlerService.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawlerService/Scrapers/InfoWiseExampleScraper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerService/Scrapers/InfoWiseExampleScraper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +40,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Immediate Window" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CrawlerService/Infrastructure/ScraperConfigurator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -55,7 +55,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Launch Settings Profile.CrawlerService: http.executor": "Debug",
+    ".NET Launch Settings Profile.CrawlerService: http.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -131,7 +131,7 @@
       <updated>1765541018421</updated>
       <workItem from="1765541019709" duration="1363000" />
       <workItem from="1765542396757" duration="2133000" />
-      <workItem from="1765554729631" duration="2995000" />
+      <workItem from="1765554729631" duration="4508000" />
     </task>
     <servers />
   </component>

@@ -18,8 +18,16 @@ public class InfoWiseExampleScraper(HttpClient httpClient) : IScraper
     {
         var newsList = new List<News>();
         var doc = new HtmlDocument();
-        
-        var htmlContent = await httpClient.GetStringAsync(BaseUrl);
+
+        string htmlContent;
+        try
+        {
+            htmlContent = await httpClient.GetStringAsync(BaseUrl);
+        }
+        catch (HttpRequestException)
+        {
+            return newsList;
+        }
         doc.LoadHtml(htmlContent);
 
         var rowNode = doc.DocumentNode.SelectSingleNode("//div[contains(@class, 'row')]/div");
