@@ -10,194 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8efde230-b92c-454a-90d7-3c734adf6f4a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../MVCExample/ARCHITECTURE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/Controllers/TodoController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/Data/ApplicationDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/Data/IApplicationDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/MVCExample.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/Migrations/20250929141913_InitialCreate.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/Migrations/20250929141913_InitialCreate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/Models/ErrorViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/Models/TodoItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/Views/Shared/Error.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/Views/Shared/_Layout.cshtml.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/Views/Todo/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/Views/Todo/Delete.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/Views/Todo/Details.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/Views/Todo/Edit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/Views/Todo/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/Views/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/Views/_ViewStart.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/app.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/js/site.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/jquery/dist/jquery.slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/jquery/dist/jquery.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVCExample/MVCExample/wwwroot/lib/jquery/dist/jquery.slim.min.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.dockerignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.idea.CrawlerService/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.idea.CrawlerService/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.idea.CrawlerService/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.idea.CrawlerService/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.idea.CrawlerService/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CrawlerService.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CrawlerService/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CrawlerService/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CrawlerService/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CrawlerService/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CrawlerService/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerService.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/Controllers/HomeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CrawlerService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CrawlerService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawlerService/Controllers/WeatherForecastController.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CrawlerService/CrawlerService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerService/CrawlerService.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/Models/ErrorViewModel.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CrawlerService/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerService/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerService/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/Views/Home/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/Views/Home/Privacy.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/Views/Shared/Error.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/Views/Shared/_Layout.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/Views/Shared/_Layout.cshtml.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/Views/_ViewImports.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/Views/_ViewStart.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/css/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/js/site.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../global.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawlerService/WeatherForecast.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -211,6 +39,9 @@
     &quot;accountId&quot;: &quot;ffad83dd-80ba-49dd-a49d-e1cb5627d9c2&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Immediate Window" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -222,22 +53,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.CrawlerService: http.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.CrawlerService: http">
     <configuration name="CrawlerService: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/CrawlerService/CrawlerService.csproj" />
@@ -298,6 +130,8 @@
       <option name="presentableId" value="Default" />
       <updated>1765541018421</updated>
       <workItem from="1765541019709" duration="1363000" />
+      <workItem from="1765542396757" duration="2133000" />
+      <workItem from="1765554729631" duration="2995000" />
     </task>
     <servers />
   </component>
