@@ -7,7 +7,7 @@ on:
 
 env:
   # --- CONFIGURACIÓN ESPECÍFICA DE ESTE MICROSERVICIO (CAMBIAR EN CADA REPO) ---
-  AWS_REGION: us-east-1                   # La región donde creaste el cluster (ej. us-east-1)
+  AWS_REGION: us-east-2                   # La región donde creaste el cluster (ej. us-east-1)
   ECR_REPOSITORY: infowise/crawler-service   # El nombre exacto de tu repo en ECR
   ECS_SERVICE: crawler-service               # El nombre del Servicio que creaste en el Cluster
   ECS_CLUSTER: InfoWise-Cluster           # El nombre de tu Cluster
