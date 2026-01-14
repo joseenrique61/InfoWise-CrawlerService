@@ -12,7 +12,7 @@ env:
   ECS_SERVICE: crawler-service               # El nombre del Servicio que creaste en el Cluster
   ECS_CLUSTER: InfoWise-Cluster           # El nombre de tu Cluster
   ECS_TASK_DEFINITION: info-wise-crawler-service-task-definition  # El nombre de la Task Definition (Family)
-  CONTAINER_NAME: crawler-service-container  # El nombre del contenedor DENTRO de la Task Definition
+  CONTAINER_NAME: info-wise-crawler-service-container  # El nombre del contenedor DENTRO de la Task Definition
 
 jobs:
   deploy:
