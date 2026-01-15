@@ -7,7 +7,7 @@ namespace CrawlerService.Scrapers;
 
 public class InfoWiseExampleScraper(HttpClient httpClient) : IScraper
 {
-    private const string BaseUrl = "http://localhost:5023";
+    private const string BaseUrl = "http://news-app.infowise.local:8080";
 
     public async Task<IEnumerable<News>> ScrapeNewsAsync(DateTime dateTime)
     {
