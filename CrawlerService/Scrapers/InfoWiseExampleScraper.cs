@@ -30,9 +30,9 @@ public class InfoWiseExampleScraper(HttpClient httpClient) : IScraper
         }
         doc.LoadHtml(htmlContent);
 
-        var rowNode = doc.DocumentNode.SelectSingleNode("//div[contains(@class, 'row')]/div");
+        var rowNode = doc.DocumentNode.SelectSingleNode("//div[contains(@class, 'row')]");
 
-        var cardNodes = rowNode.SelectNodes("./div[contains(@class, 'card')]");
+        var cardNodes = rowNode.SelectNodes("./div[contains(@class, 'col-md-4 mb-4')]");
 
         if (cardNodes == null) return newsList;
         
